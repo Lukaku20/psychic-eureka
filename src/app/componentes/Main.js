@@ -1,7 +1,11 @@
+
+import Image from "next/image";
 const Main = () => (
-    <main>
-      <p>Este es el contenido principal de la página de inicio.</p>
-    </main>
-  );
-  
-  export default Main;
+  <main>
+ <p>
+  <Image src="/assets/portada.jpg" alt="Portada" width={500} height={300} />
+    </p>
+  </main>
+);
+
+export default Main;
