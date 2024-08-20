@@ -12,8 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 */
 export default function Layout({ children }) {
   return (
-    <div>
-      {/* Tu diseño aquí */}
+    <div>Siduncu
       {children}
     </div>
   );

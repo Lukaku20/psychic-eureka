@@ -6,10 +6,10 @@ import Layout from '../layout';
 export default function Home() {
   return (
     <>
-      
+
       <Header />
       <Main />
-    
+      <Layout/>
     <p>Bienvenido a tu Sindicato</p>
    
     </>

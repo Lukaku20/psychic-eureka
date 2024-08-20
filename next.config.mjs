@@ -7,7 +7,7 @@ const nextConfig = {
           destination: '/',
         },
         {
-          source: '/acerca',
+          source: '/about',
           destination: '/about',
         },
         {

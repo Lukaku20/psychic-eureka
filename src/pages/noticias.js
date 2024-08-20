@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 export default function Noticias() {
     return (
       <div className="noticias">
+        <Link href='/' color='blue.400' _hover={{ color: 'blue.500' }}>
+      Inicio
+    </Link>
         <h1>Noticias</h1>
         <p>Bienvenido a la sección de noticias.</p>
         <div className="container">
