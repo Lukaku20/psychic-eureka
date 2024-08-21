@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function about(){
     return (
         <div className="about">
-            <Link href='/' color='blue.400' _hover={{ color: 'blue.500' }}>
+            <Link href='/' className="button">
       Inicio
     </Link>
             <h1 className="title"> Sobre nosotros:</h1>
