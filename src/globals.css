@@ -43,3 +43,14 @@ body {
   border-top: 1px solid #ccc;
   color: blue;
 }
+
+.about{
+  /* position: */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;  
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+  margin: 20px;
+  
+}

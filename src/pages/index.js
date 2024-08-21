@@ -1,7 +1,9 @@
 
+import Carrousel from '@/componentes/Carrousel';
 import Header from '../componentes/Header';
 import Main from '../componentes/Main';
 import Layout from '../layout';
+
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       <Main />
       <Layout/>
     <p>Bienvenido a tu Sindicato</p>
-   
+    <Carrousel />
     </>
   );
 }
